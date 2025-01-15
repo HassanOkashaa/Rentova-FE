@@ -1,6 +1,7 @@
 import '/components/item_map_view/item_map_view_widget.dart';
 import '/components/modals/filters_modal/filters_modal_widget.dart';
 import '/components/modals/stay_modal/stay_modal_widget.dart';
+import '/components/nav_bar/nav_bar_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -30,6 +31,8 @@ class ExploreCopyModel extends FlutterFlowModel<ExploreCopyWidget> {
   late ItemMapViewModel itemMapViewModel3;
   // Model for itemMapView component.
   late ItemMapViewModel itemMapViewModel4;
+  // Model for navBar component.
+  late NavBarModel navBarModel;
 
   @override
   void initState(BuildContext context) {
@@ -37,6 +40,7 @@ class ExploreCopyModel extends FlutterFlowModel<ExploreCopyWidget> {
     itemMapViewModel2 = createModel(context, () => ItemMapViewModel());
     itemMapViewModel3 = createModel(context, () => ItemMapViewModel());
     itemMapViewModel4 = createModel(context, () => ItemMapViewModel());
+    navBarModel = createModel(context, () => NavBarModel());
   }
 
   @override
@@ -46,5 +50,6 @@ class ExploreCopyModel extends FlutterFlowModel<ExploreCopyWidget> {
     itemMapViewModel2.dispose();
     itemMapViewModel3.dispose();
     itemMapViewModel4.dispose();
+    navBarModel.dispose();
   }
 }

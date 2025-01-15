@@ -81,13 +81,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? NavBarPage() : ExploreWidget(),
+          appStateNotifier.loggedIn ? ExploreWidget() : LoginWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
           builder: (context, _) =>
-              appStateNotifier.loggedIn ? NavBarPage() : ExploreWidget(),
+              appStateNotifier.loggedIn ? ExploreWidget() : LoginWidget(),
         ),
         FFRoute(
           name: 'Explore',
@@ -117,37 +117,32 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'GuestProfile',
           path: '/guestProfile',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'GuestProfile')
-              : GuestProfileWidget(),
+          builder: (context, params) => GuestProfileWidget(),
         ),
         FFRoute(
           name: 'noLoginMessages',
           path: '/noLoginMessages',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'noLoginMessages')
-              : NoLoginMessagesWidget(),
+          builder: (context, params) => NoLoginMessagesWidget(),
         ),
         FFRoute(
           name: 'noLoginTrips',
           path: '/noLoginTrips',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'noLoginTrips')
-              : NoLoginTripsWidget(),
+          builder: (context, params) => NoLoginTripsWidget(),
         ),
         FFRoute(
           name: 'noLoginWishlists',
           path: '/noLoginWishlists',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'noLoginWishlists')
-              : NoLoginWishlistsWidget(),
+          builder: (context, params) => NoLoginWishlistsWidget(),
         ),
         FFRoute(
           name: 'ExploreCopy',
           path: '/exploreCopy',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'ExploreCopy')
-              : ExploreCopyWidget(),
+          builder: (context, params) => ExploreCopyWidget(),
+        ),
+        FFRoute(
+          name: 'PropertyDetailsPage',
+          path: '/propertyDetailsPage',
+          builder: (context, params) => PropertyDetailsPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -316,7 +311,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.uri.toString());
-            return '/explore';
+            return '/login';
           }
           return null;
         },

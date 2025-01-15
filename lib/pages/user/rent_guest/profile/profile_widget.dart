@@ -348,19 +348,6 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
                                             icon: Icon(
-                                              Icons.translate,
-                                            ),
-                                            title: 'Translation',
-                                            activeDivider: false,
-                                          ),
-                                        ),
-                                        wrapWithModel(
-                                          model:
-                                              _model.profileSettingItemsModel6,
-                                          updateCallback: () =>
-                                              safeSetState(() {}),
-                                          child: ProfileSettingItemsWidget(
-                                            icon: Icon(
                                               FFIcons.kbell,
                                             ),
                                             title: 'Notifications',
@@ -369,7 +356,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel7,
+                                              _model.profileSettingItemsModel6,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -396,7 +383,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'r2xzwih1' /* Housting */,
+                                                  'r2xzwih1' /* Hosting */,
                                                 ),
                                                 maxLines: 1,
                                                 style:
@@ -412,7 +399,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel8,
+                                              _model.profileSettingItemsModel7,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -425,7 +412,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel9,
+                                              _model.profileSettingItemsModel8,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -438,7 +425,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel10,
+                                              _model.profileSettingItemsModel9,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -526,7 +513,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel11,
+                                              _model.profileSettingItemsModel10,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -569,7 +556,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel12,
+                                              _model.profileSettingItemsModel11,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -614,7 +601,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel13,
+                                              _model.profileSettingItemsModel12,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -627,7 +614,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel14,
+                                              _model.profileSettingItemsModel13,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -670,7 +657,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel15,
+                                              _model.profileSettingItemsModel14,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(
@@ -682,7 +669,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                         wrapWithModel(
                                           model:
-                                              _model.profileSettingItemsModel16,
+                                              _model.profileSettingItemsModel15,
                                           updateCallback: () =>
                                               safeSetState(() {}),
                                           child: ProfileSettingItemsWidget(

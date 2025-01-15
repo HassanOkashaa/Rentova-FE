@@ -36,26 +36,24 @@ class ProfileModel extends FlutterFlowModel<ProfileWidget> {
   late ProfileSettingItemsModel profileSettingItemsModel8;
   // Model for ProfileSettingItems component.
   late ProfileSettingItemsModel profileSettingItemsModel9;
-  // Model for ProfileSettingItems component.
-  late ProfileSettingItemsModel profileSettingItemsModel10;
   // Model for ProfileSettingDetailItems component.
   late ProfileSettingDetailItemsModel profileSettingDetailItemsModel1;
   // Model for ProfileSettingItems component.
-  late ProfileSettingItemsModel profileSettingItemsModel11;
+  late ProfileSettingItemsModel profileSettingItemsModel10;
   // Model for ProfileSettingItems component.
-  late ProfileSettingItemsModel profileSettingItemsModel12;
+  late ProfileSettingItemsModel profileSettingItemsModel11;
   // Model for ProfileSettingDetailItems component.
   late ProfileSettingDetailItemsModel profileSettingDetailItemsModel2;
   // Model for ProfileSettingDetailItems component.
   late ProfileSettingDetailItemsModel profileSettingDetailItemsModel3;
+  // Model for ProfileSettingItems component.
+  late ProfileSettingItemsModel profileSettingItemsModel12;
   // Model for ProfileSettingItems component.
   late ProfileSettingItemsModel profileSettingItemsModel13;
   // Model for ProfileSettingItems component.
   late ProfileSettingItemsModel profileSettingItemsModel14;
   // Model for ProfileSettingItems component.
   late ProfileSettingItemsModel profileSettingItemsModel15;
-  // Model for ProfileSettingItems component.
-  late ProfileSettingItemsModel profileSettingItemsModel16;
   // Model for navBar component.
   late NavBarModel navBarModel;
 
@@ -80,25 +78,23 @@ class ProfileModel extends FlutterFlowModel<ProfileWidget> {
         createModel(context, () => ProfileSettingItemsModel());
     profileSettingItemsModel9 =
         createModel(context, () => ProfileSettingItemsModel());
-    profileSettingItemsModel10 =
-        createModel(context, () => ProfileSettingItemsModel());
     profileSettingDetailItemsModel1 =
         createModel(context, () => ProfileSettingDetailItemsModel());
-    profileSettingItemsModel11 =
+    profileSettingItemsModel10 =
         createModel(context, () => ProfileSettingItemsModel());
-    profileSettingItemsModel12 =
+    profileSettingItemsModel11 =
         createModel(context, () => ProfileSettingItemsModel());
     profileSettingDetailItemsModel2 =
         createModel(context, () => ProfileSettingDetailItemsModel());
     profileSettingDetailItemsModel3 =
         createModel(context, () => ProfileSettingDetailItemsModel());
+    profileSettingItemsModel12 =
+        createModel(context, () => ProfileSettingItemsModel());
     profileSettingItemsModel13 =
         createModel(context, () => ProfileSettingItemsModel());
     profileSettingItemsModel14 =
         createModel(context, () => ProfileSettingItemsModel());
     profileSettingItemsModel15 =
-        createModel(context, () => ProfileSettingItemsModel());
-    profileSettingItemsModel16 =
         createModel(context, () => ProfileSettingItemsModel());
     navBarModel = createModel(context, () => NavBarModel());
   }
@@ -115,16 +111,15 @@ class ProfileModel extends FlutterFlowModel<ProfileWidget> {
     profileSettingItemsModel7.dispose();
     profileSettingItemsModel8.dispose();
     profileSettingItemsModel9.dispose();
-    profileSettingItemsModel10.dispose();
     profileSettingDetailItemsModel1.dispose();
+    profileSettingItemsModel10.dispose();
     profileSettingItemsModel11.dispose();
-    profileSettingItemsModel12.dispose();
     profileSettingDetailItemsModel2.dispose();
     profileSettingDetailItemsModel3.dispose();
+    profileSettingItemsModel12.dispose();
     profileSettingItemsModel13.dispose();
     profileSettingItemsModel14.dispose();
     profileSettingItemsModel15.dispose();
-    profileSettingItemsModel16.dispose();
     navBarModel.dispose();
   }
 }

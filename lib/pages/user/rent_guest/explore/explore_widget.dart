@@ -70,7 +70,7 @@ class _ExploreWidgetState extends State<ExploreWidget>
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(24.0, 40.0, 24.0, 8.0),
+                          EdgeInsetsDirectional.fromSTEB(24.0, 60.0, 24.0, 8.0),
                       child: Container(
                         width: double.infinity,
                         decoration: BoxDecoration(

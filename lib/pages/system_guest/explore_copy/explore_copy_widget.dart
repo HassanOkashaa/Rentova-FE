@@ -1,6 +1,7 @@
 import '/components/item_map_view/item_map_view_widget.dart';
 import '/components/modals/filters_modal/filters_modal_widget.dart';
 import '/components/modals/stay_modal/stay_modal_widget.dart';
+import '/components/nav_bar/nav_bar_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -69,7 +70,7 @@ class _ExploreCopyWidgetState extends State<ExploreCopyWidget>
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(24.0, 40.0, 24.0, 8.0),
+                          EdgeInsetsDirectional.fromSTEB(24.0, 60.0, 24.0, 8.0),
                       child: Container(
                         width: double.infinity,
                         decoration: BoxDecoration(
@@ -417,6 +418,14 @@ class _ExploreCopyWidgetState extends State<ExploreCopyWidget>
                       ),
                     ),
                   ],
+                ),
+              ),
+              Align(
+                alignment: AlignmentDirectional(0.0, 1.0),
+                child: wrapWithModel(
+                  model: _model.navBarModel,
+                  updateCallback: () => safeSetState(() {}),
+                  child: NavBarWidget(),
                 ),
               ),
             ],

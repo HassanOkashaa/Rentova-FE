@@ -151,7 +151,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': '',
     },
     '1l7py28k': {
-      'en': 'Any Where . Any week . Add guestes',
+      'en': 'Any Where . Any week . Add guests',
       'ar': '',
     },
     'hbvcy358': {
@@ -194,7 +194,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': '',
     },
     'r2xzwih1': {
-      'en': 'Housting',
+      'en': 'Hosting',
       'ar': '',
     },
     '86egjt01': {
@@ -528,6 +528,90 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'vdvy0tj0': {
       'en': 'Explore',
+      'ar': '',
+    },
+  },
+  // PropertyDetailsPage
+  {
+    'mh9vpanz': {
+      'en': 'Super Deluxe Villa in Marassi North Coast',
+      'ar': '',
+    },
+    'x9h1glc4': {
+      'en': '3 floor villa in North Coast, Egypt',
+      'ar': '',
+    },
+    '457ecbbd': {
+      'en': '6 guests',
+      'ar': '',
+    },
+    'asy8hjuv': {
+      'en': '4 bedrooms',
+      'ar': '',
+    },
+    '7arwmxdy': {
+      'en': '2 baths',
+      'ar': '',
+    },
+    '2va2ra8q': {
+      'en': '5.0',
+      'ar': '',
+    },
+    'opi34j35': {
+      'en': '7 reviews',
+      'ar': '',
+    },
+    'sn6evuj4': {
+      'en': 'Hosted by Abdullah',
+      'ar': '',
+    },
+    '4u6gasi7': {
+      'en':
+          '3 FLOOR VILLA IN THE HEART OF MARASSI \n- Easy door access\n- cleaning service available for extra fee\n- Beach view ',
+      'ar': '',
+    },
+    'lgwqavh2': {
+      'en': 'What this place offers',
+      'ar': '',
+    },
+    'mvx0mcig': {
+      'en': 'Wifi',
+      'ar': '',
+    },
+    'mmz12und': {
+      'en': 'TV',
+      'ar': '',
+    },
+    '94upradc': {
+      'en': 'Kitchen',
+      'ar': '',
+    },
+    'etly4bbq': {
+      'en': 'Show all amenities',
+      'ar': '',
+    },
+    'jt0sx4jm': {
+      'en': 'Where you\'ll be',
+      'ar': '',
+    },
+    'uijs51lc': {
+      'en': '5.0',
+      'ar': '',
+    },
+    '9rrbr47g': {
+      'en': '7 reviews',
+      'ar': '',
+    },
+    'n7ux4dnu': {
+      'en': 'Show all reviews',
+      'ar': '',
+    },
+    '6b66rmdj': {
+      'en': 'Meet your host',
+      'ar': '',
+    },
+    '7lw411gu': {
+      'en': 'Home',
       'ar': '',
     },
   },
@@ -1052,6 +1136,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'tncd0xqt': {
       'en': 'It\'s easy to start hosting and earn extra income.',
+      'ar': '',
+    },
+  },
+  // ReviewBox
+  {
+    'ugpnir9m': {
+      'en': 'Nov 2024',
+      'ar': '',
+    },
+    '0vmfxrvz': {
+      'en':
+          'Amazing place! Abdullah was very kind and helpful. Very supportive and kind!',
+      'ar': '',
+    },
+    '3kphwi4n': {
+      'en': 'Marwan Tarek',
       'ar': '',
     },
   },
